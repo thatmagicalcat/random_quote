@@ -3,7 +3,7 @@ use scraper::{Html, Selector};
 
 const URL: &str = "https://zenquotes.io";
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Hash)]
 pub struct Quote {
     /// Quote
     pub quote: String,
