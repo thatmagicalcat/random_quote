@@ -1,0 +1,14 @@
+[package]
+name = "random_quotes"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pranjal Patel <pranjalpatel@duck.com>"]
+description = "Pull a random quote from zenquotes.io"
+repository = "https://github.com/dynamik-lang/random-quote"
+license = "GPL-3.0-only"
+readme = "README.md"
+categories = ["web-programming"]
+
+[dependencies]
+reqwest = { version = "0.11.22", features = ["blocking"] }
+scraper = "0.18.1"
