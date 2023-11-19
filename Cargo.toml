@@ -1,10 +1,10 @@
 [package]
-name = "random_quotes"
+name = "random_quote"
 version = "0.1.0"
 edition = "2021"
 authors = ["Pranjal Patel <pranjalpatel@duck.com>"]
 description = "Pull a random quote from zenquotes.io"
-repository = "https://github.com/dynamik-lang/random-quote"
+repository = "https://github.com/Pranjal-Patel/random_quote"
 license = "GPL-3.0-only"
 readme = "README.md"
 categories = ["web-programming"]
